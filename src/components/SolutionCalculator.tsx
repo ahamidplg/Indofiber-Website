@@ -192,7 +192,7 @@ export const SolutionCalculator: React.FC = () => {
                   HASIL REKOMENDASI PAKET
                 </span>
                 <span className="text-xs font-mono text-[#10b981] font-semibold">
-                  SLA 99.9%
+                  SLA 99.5%
                 </span>
               </div>
 
@@ -219,7 +219,7 @@ export const SolutionCalculator: React.FC = () => {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-400">Jaminan Ketersediaan (SLA):</span>
-                  <span className="font-mono font-bold text-[#10b981]">99.9% Carrier-Grade</span>
+                  <span className="font-mono font-bold text-[#10b981]">99.5% Carrier-Grade</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-slate-400">Alokasi IP Public:</span>

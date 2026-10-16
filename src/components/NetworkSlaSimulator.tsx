@@ -86,7 +86,7 @@ export const NetworkSlaSimulator: React.FC = () => {
               <span>LIVE NOC METRICS & SLA VERIFICATION</span>
             </div>
             <h3 className="text-xl sm:text-2xl font-heading font-extrabold text-white">
-              Simulasi Latensi & Jaminan Uptime 99.9%
+              Simulasi Latensi & Jaminan Uptime 99.5%
             </h3>
             <p className="text-xs sm:text-sm text-slate-400 mt-1">
               Pemantauan langsung performa jaringan optik dari Core Switch Palembang ke gateway domestik dan global.

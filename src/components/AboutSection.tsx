@@ -12,7 +12,7 @@ export const AboutSection: React.FC = () => {
     },
     {
       icon: ShieldCheck,
-      title: 'Jaminan SLA 99.9% Bergaransi',
+      title: 'Jaminan SLA 99.5% Bergaransi',
       desc: 'Komitmen Service Level Agreement resmi untuk kontinuitas bisnis tanpa henti, didukung mitigasi otomatis dan redundansi multi-gateway.'
     },
     {

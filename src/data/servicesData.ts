@@ -38,14 +38,14 @@ export const SERVICES_DATA: ServiceItem[] = [
     description: 'Layanan akses internet pita lebar berkecepatan tinggi dengan rasio bandwidth simetris 1:1 (upload dan download setara) serta Committed Information Rate (CIR) 100%. Jalur koneksi eksklusif tanpa pembagian bandwidth dengan pengguna lain, menjamin performa puncak untuk transmisi data korporat.',
     features: [
       'Bandwidth Simetris 1:1 (Upload & Download seimbang tanpa jeda)',
-      'Jaminan CIR 100% dengan Service Level Agreement (SLA) 99.9%',
+      'Jaminan CIR 100% dengan Service Level Agreement (SLA) 99.5%',
       'Alokasi IP Public Static IPv4 & IPv6 untuk server & VPN',
       'Direct Peering ke IIX, OpenIXP, Google, Microsoft, & Global Tier-1',
       'Pemantauan Trafik Real-time melalui MRTG & PRTG Portal',
       'Dedicated Fiber Optic Drop Cable langsung ke lokasi klien'
     ],
     specifications: {
-      sla: '99.9% Uptime Guarantee',
+      sla: '99.5% Uptime Guarantee',
       ratio: '1:1 Symmetrical (CIR 100%)',
       ipType: '/29 atau /28 Static Public IPv4',
       support: '24/7 Dedicated Account Manager & NOC Team'
@@ -107,7 +107,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Zero-Touch Provisioning untuk penambahan kantor cabang baru'
     ],
     specifications: {
-      sla: '99.9% Inter-branch Connectivity',
+      sla: '99.5% Inter-branch Connectivity',
       ratio: 'Dedicated Tunneling Protocol',
       ipType: 'Private MPLS / Overlay IPSec',
       support: 'SD-WAN Certified Engineers 24/7'
@@ -324,7 +324,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Backup Otomatis Harian dengan Opsi 1-Click Restore Data'
     ],
     specifications: {
-      sla: '99.9% Web Server Uptime',
+      sla: '99.5% Web Server Uptime',
       ratio: 'LiteSpeed Enterprise Web Server',
       ipType: 'Dedicated IP & Anycast DNS Global',
       support: 'Dukungan Teknis Web & Sysadmin Berpengalaman'
@@ -359,7 +359,7 @@ export const COMPANY_PROFILE = {
   googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Blok+E.11+Jl+Anggar+Lorok+Pakjo+Kec+Ilir+Barat+I+Kota+Palembang+Sumatera+Selatan+30137',
   foundedYear: '2019',
   stats: [
-    { label: 'Uptime SLA Guarantee', value: '99.9%', note: 'Carrier-grade reliability' },
+    { label: 'Uptime SLA Guarantee', value: '99.5%', note: 'Carrier-grade reliability' },
     { label: 'Bandwidth Ratio', value: '1:1', note: 'Simetris CIR 100%' },
     { label: 'Network Operations Center', value: '24/7/365', note: 'Palembang & Nasional' },
     { label: 'Cakupan Layanan', value: '100%', note: 'Nusantara Fiber & Satelit' }

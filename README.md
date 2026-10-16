@@ -30,7 +30,7 @@ Aplikasi ini menyajikan 10 produk dan layanan resmi yang disesuaikan dengan bros
 
 | No | Layanan | Kategori | Fitur & Keunggulan Utama |
 |---|---|---|---|
-| **01** | **Internet Dedicated** | Konektivitas | Bandwidth simetris 1:1, CIR 100%, SLA 99.9%, IP Public Static (/29), Direct Peering IIX & Global Tier-1 |
+| **01** | **Internet Dedicated** | Konektivitas | Bandwidth simetris 1:1, CIR 100%, SLA 99.5%, IP Public Static (/29), Direct Peering IIX & Global Tier-1 |
 | **02** | **Business Broadband** | Konektivitas | Kuota Truly Unlimited tanpa FUP, Wi-Fi 6 Enterprise, hingga 500 Mbps untuk UKM & kantor cabang |
 | **03** | **VPN & SD-WAN** | Jaringan | Interkoneksi kantor multi-cabang terpusat, enkripsi IPsec AES-256, auto-failover, cloud orchestration |
 | **04** | **Managed Services Network & Wi-Fi** | Jaringan | Penyediaan AP Controller, Captive Portal brand tamu, switch/router terkelola, engineer on-site & remote NOC |
@@ -110,7 +110,7 @@ Aplikasi ini menyajikan 10 produk dan layanan resmi yang disesuaikan dengan bros
         ├── ServiceDetailModal.tsx # Modal detail teknis dan pemesanan penawaran
         ├── NetworkBackbone.tsx    # Peta interaktif jaringan Nusantara & cek jangkauan
         ├── SolutionCalculator.tsx # Kalkulator kebutuhan bandwidth & ekspor WhatsApp
-        ├── NetworkSlaSimulator.tsx# Pemantau latensi dan SLA 99.9% real-time
+        ├── NetworkSlaSimulator.tsx# Pemantau latensi dan SLA 99.5% real-time
         ├── AboutSection.tsx       # Visi misi, 4 pilar, dan segel mutu
         ├── ContactSection.tsx     # Alamat kantor Palembang, form survei & Google Maps
         ├── FaqSection.tsx         # Pertanyaan umum seputar layanan

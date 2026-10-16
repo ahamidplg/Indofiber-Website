@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({
               </div>
               <div className="flex items-center gap-2">
                 <Radio className="w-4 h-4 text-[#10b981] shrink-0" />
-                <span>SLA 99.9% Guaranteed</span>
+                <span>SLA 99.5% Guaranteed</span>
               </div>
             </div>
           </div>

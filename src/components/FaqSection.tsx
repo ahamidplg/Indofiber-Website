@@ -16,7 +16,7 @@ export const FaqSection: React.FC = () => {
     },
     {
       q: 'Apa perbedaan mendasar antara Internet Dedicated 1:1 CIR 100% dengan Broadband biasa?',
-      a: 'Internet Dedicated memberikan jalur kabel optik eksklusif langsung ke router klien dengan kecepatan simetris (kecepatan upload setara kecepatan download) tanpa dibagi ke pelanggan lain. Jaminan CIR 100% dan SLA 99.9% memastikan throughput konstan 24/7 tanpa penurunan di jam sibuk, dilengkapi IP Public Static untuk hosting aplikasi dan VPN perusahaan.'
+      a: 'Internet Dedicated memberikan jalur kabel optik eksklusif langsung ke router klien dengan kecepatan simetris (kecepatan upload setara kecepatan download) tanpa dibagi ke pelanggan lain. Jaminan CIR 100% dan SLA 99.5% memastikan throughput konstan 24/7 tanpa penurunan di jam sibuk, dilengkapi IP Public Static untuk hosting aplikasi dan VPN perusahaan.'
     },
     {
       q: 'Apakah proses survei lokasi dan uji kelayakan jaringan dikenakan biaya?',
