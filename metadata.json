@@ -1,0 +1,6 @@
+{
+  "name": "PT Indofiber Lintas Nusantara",
+  "description": "Website resmi PT Indofiber Lintas Nusantara - Penyedia Layanan Internet Dedicated, Fiber Optik, Cloud & Smartech Nusantara di Palembang dan seluruh Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

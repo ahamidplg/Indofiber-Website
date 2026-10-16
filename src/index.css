@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-dark: #060c18;
+    --color-bg-navy: #091326;
+    --color-gold-light: #f6e6b4;
+    --color-gold-base: #d4af37;
+    --color-gold-dark: #9a7b2c;
+    --color-fiber-cyan: #00f2fe;
+    --color-fiber-teal: #00c2cb;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #060c18;
+    color: #e2e8f0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom metallic gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f6e5b2 25%, #d4af37 60%, #b89230 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-bright {
+  background: linear-gradient(180deg, #fff6db 0%, #ecd07a 50%, #c49931 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #e2e8f0 60%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gold border gradient */
+.border-gold-gradient {
+  border-image: linear-gradient(135deg, #f6e5b2, #d4af37, #856420) 1;
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(0, 242, 254, 0.35);
+}
+
+.glow-gold {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+}
+
+/* Animated fiber beam line */
+@keyframes pulseFiber {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scaleX(0.98);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scaleX(1);
+  }
+}
+
+.animate-pulse-fiber {
+  animation: pulseFiber 4s ease-in-out infinite;
+}
+
+/* Subtle grid background */
+.bg-grid-cyber {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 242, 254, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 242, 254, 0.04) 1px, transparent 1px);
+}
