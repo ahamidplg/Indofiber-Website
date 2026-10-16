@@ -149,6 +149,29 @@ npm run lint
 
 ---
 
+## ☁️ Panduan Deploy ke Vercel
+
+Aplikasi ini telah dilengkapi konfigurasi bawaan untuk deployment instan di Vercel:
+
+1. **Konfigurasi Otomatis yang Disertakan:**
+   * **`.npmrc`**: Berisi `legacy-peer-deps=true` untuk mencegah error konflik peer dependencies npm (`ERESOLVE`).
+   * **`vercel.json`**: Menentukan direktori output `dist`, framework `vite`, serta perintah instalasi `npm install --legacy-peer-deps`.
+
+2. **Jika Deploy Menggunakan Git / Vercel Dashboard:**
+   * Cukup impor repository ke akun Vercel Anda.
+   * **Framework Preset**: Vite
+   * **Root Directory**: `./` (default)
+   * **Build Command**: `npm run build`
+   * **Output Directory**: `dist`
+   * **Install Command**: `npm install --legacy-peer-deps` (sudah otomatis terbaca dari `vercel.json` dan `.npmrc`).
+
+3. **Deploy via Vercel CLI:**
+   ```bash
+   npx vercel --prod
+   ```
+
+---
+
 ## 📍 Navigasi Kantor
 
 Untuk mengunjungi kantor pusat dan pusat operasional jaringan (NOC) PT Indofiber Lintas Nusantara:
